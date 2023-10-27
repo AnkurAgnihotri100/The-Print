@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #f2a4cb 0%, #827a56 100%);
+}
+
+.register-container {
+    background-color: #fff;
+    max-width: 369px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .15);
+}
+
+.register-container h2 {
+    font-size: 30px;
+    margin: 20px 0 10px 0;
+    font-weight: 600;
+    position: relative;
+}
+
+.register-container input {
+    height: 45px;
+    width: 100%;
+    margin-top: 25px;
+    position: relative;
+    font-size: 16px;
+    border: none;
+}
+
+.register-container button {
+    margin: 40px 0 20px 0;
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(to right, #d6b3a0 0%, #e45412 100%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-container button:hover {
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #bc5da2 0%, #ff0000 100%);
+}

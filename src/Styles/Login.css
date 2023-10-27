@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #f2a4cb 0%, #827a56 100%);
+}
+
+.login-container {
+    background-color: #fff;
+    max-width: 369px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .15);
+}
+
+.login-container form .title {
+    font-size: 30px;
+    margin: 20px 0 10px 0;
+    font-weight: 600;
+    position: relative;
+}
+
+.login-container form .title span {
+    color: #c66e08;
+}
+
+.login-container form .title::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 33px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 5px;
+    background: linear-gradient(to right, #f16daf 0%, #ffd000 100%);
+}
+
+.login-container form .input-box {
+    height: 45px;
+    width: 100%;
+    margin-top: 25px;
+    position: relative;
+}
+
+.login-container form .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border: none;
+}
+
+.login-container form .underline:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #ad9f9f;
+    left: 0;
+    bottom: 0;
+}
+
+.login-container form .underline:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #f16daf 0%, #ffd000 100%);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.3s ease;
+}
+
+.login-container form .input-box input:focus~.underline:after,
+.login-container form .input-box input:valid~.underline:after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.login-container form .button {
+    margin: 40px 0 20px 0;
+}
+
+.login-container form .input-box input[type="submit"] {
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(to right, #d6b3a0 0%, #e45412 100%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container form .input-box input[type="submit"]:hover {
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #bc5da2 0%, #ff0000 100%);
+}
+
+.login-container .option {
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-container .twitter a,
+.login-container .facebook a {
+    display: block;
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 20px;
+    color: #fff;
+    line-height: 43px;
+    border-radius: 5px;
+}
+
+.login-container .twitter i,
+.login-container .facebook i {
+    padding-right: 12px;
+    font-size: 15px;
+        opacity: 1;
+}
+
+.login-container .twitter a {
+    margin: 20px 0 15px 0;
+    background: linear-gradient(to left, #00acee 0%, #1abeff 100%);
+}
+
+.login-container .twitter a:hover {
+    background: linear-gradient(to right, #00acee 0%, #1abeff 100%);
+}
+
+.login.login-container .facebook a {
+    margin: 20px 0 50px 0;
+    background: linear-gradient(to left, #3b5998 0%, #476bb8 100%);
+    word-spacing: 5px;
+}
+
+.login-container .facebook a:hover {
+    background: linear-gradient(to right, #3b5998 0%, #476bb8 100%);
+}
