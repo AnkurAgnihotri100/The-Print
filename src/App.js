@@ -12,7 +12,6 @@ import Login from "./Pages/Login";
 
 
 const App = () => {
-  // Request notification permission when the component mounts
   useEffect(() => {
     if ("Notification" in window) {
       Notification.requestPermission()

@@ -1,4 +1,4 @@
-/* Center the brand logo and reduce its size */
+
 .navbar-brand {
     display: flex !important;
     justify-content: center !important;
@@ -11,13 +11,11 @@
 }
 
 
-/* Add margin to the logo to push it to the left */
 .navbar-brand {
     margin-right: 20px;
-    /* Adjust as needed */
+
 }
 
-/* Center the search bar in the middle of the navbar */
 .form-inline {
     display: flex;
     justify-content: center;
@@ -27,8 +25,16 @@
 .form-control{
     border-radius: 20px;
 }
-/* Style for the search bar */
+
 .form-inline input[type="search"] {
     width: 200px;
-    /* Adjust the width as needed */
 }
+
+
+
+
+
+
+
+
+
