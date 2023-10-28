@@ -9,9 +9,9 @@ function Hero() {
       <h1 style={{ fontSize: "45px", color: "orangered" }}>
         Explore, Discover, and Stay Informed
       </h1>
-      <h5 style={{fontWeight:"400" , fontSize:"25px"}}>The Website is made with news API</h5>
+      <h5 style={{fontWeight:"400" ,color:"brown", fontSize:"25px"}}>The Website is made with news API</h5>
       <p className="text-center " style={{width:"50vh", fontSize:"20px"}}>
-        Welcome to The Print, your gateway to a world of knowledge and
+        The Print, your gateway to a world of knowledge and
         information. With our news API, we bring you the latest news and updates
         from a wide range of topics, from global affairs to tech innovations and
         beyond.

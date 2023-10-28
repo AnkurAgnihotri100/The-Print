@@ -1,3 +1,11 @@
 .nav-link{
     font-size: 21px;
 }
+.nav-link:hover {
+    /* background-color: lightgray; */
+    /* Change to your desired lighter background color */
+    box-shadow: 4px 4px 6px 6px rgba(14, 14, 14, 0.2);
+    /* Add a minor box shadow */
+    transition: background-color 0.3s, box-shadow 0.3s;
+    /* Add a smooth transition effect */
+}

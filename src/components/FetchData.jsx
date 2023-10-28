@@ -26,7 +26,7 @@ function FetchData({ cat }) {
 
   return (
     <div className="container my-4">
-      <h1 className="d-flex justify-content-center align-items-center">
+      <h1 className="d-flex justify-content-center align-items-center" style={{fontWeight:"600"}}>
         Top Stories
       </h1>
       <div
@@ -43,8 +43,8 @@ function FetchData({ cat }) {
                   borderRadius: "10px",
                 }}
               >
-                <h3 className="my-2">{items.title}</h3>
-                <div className="d-flex justify-content-center align-items-center">
+                <h3 className="my-2" style={{color:"red" , fontWeight:"1000"}}>{items.title}</h3>
+                <div className="d-flex justify-content-center align-items-center" style={{}}>
                   {items.urlToImage && (
                     <img
                       src={items.urlToImage}
@@ -54,11 +54,12 @@ function FetchData({ cat }) {
                         height: "300px",
                         width: "100%",
                         objectFit: "cover",
+                        
                       }}
                     />
                   )}
                 </div>
-                <p className="my-1">{items.description}</p>
+                <p className="my-1" style={{}}>{items.description}</p>
                 <div className="container-fluid d-flex justify-content-center align-items-center">
                   <a
                     className="btn btn-primary m-2"

@@ -45,7 +45,7 @@ function NavBar() {
           <button
             className="btn btn-outline-success my-2 my-sm-0"
             type="submit"
-            style={{ margin: "0px 10px" }}
+            style={{ margin: "0px 10px", border:"10px" }}
           >
             Search
           </button>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../Styles/Header.css";
+import "../Styles/Header.css"; // Make sure the path is correct
+
 function HeaderSection() {
   return (
     <div
@@ -31,8 +32,8 @@ function HeaderSection() {
                 className="nav-link active text-white btn btn-primary"
                 style={{
                   margin: "0px 5px",
-                  borderRadius: "10px",
-                  padding: "8px 15px",
+                  borderRadius: "25px",
+                  padding: "8px 25px",
                 }}
                 to="/"
               >
@@ -45,8 +46,8 @@ function HeaderSection() {
                 to="/general"
                 style={{
                   margin: "0px 5px",
-                  borderRadius: "10px",
-                  padding: "8px 15px",
+                  borderRadius: "25px",
+                  padding: "8px 25px",
                 }}
               >
                 General
@@ -58,8 +59,8 @@ function HeaderSection() {
                 to="/business"
                 style={{
                   margin: "0px 5px",
-                  borderRadius: "10px",
-                  padding: "8px 15px",
+                  borderRadius: "25px",
+                  padding: "8px 25px",
                 }}
               >
                 Business
@@ -71,8 +72,8 @@ function HeaderSection() {
                 to="/entertainment"
                 style={{
                   margin: "0px 5px",
-                  borderRadius: "10px",
-                  padding: "8px 15px",
+                  borderRadius: "25px",
+                  padding: "8px 25px",
                   backgroundColor: "purple",
                 }}
               >
@@ -85,8 +86,8 @@ function HeaderSection() {
                 to="/health"
                 style={{
                   margin: "0px 5px",
-                  borderRadius: "10px",
-                  padding: "8px 15px",
+                  borderRadius: "25px",
+                  padding: "8px 25px",
                 }}
               >
                 Health
@@ -98,8 +99,8 @@ function HeaderSection() {
                 to="/science"
                 style={{
                   margin: "0px 5px",
-                  borderRadius: "10px",
-                  padding: "8px 15px",
+                  borderRadius: "25px",
+                  padding: "8px 25px",
                 }}
               >
                 Science
@@ -107,12 +108,12 @@ function HeaderSection() {
             </li>
             <li className="nav-item">
               <Link
-                className="nav-link active text-white "
+                className="nav-link active text-white btn btn-danger"
                 to="/sports"
                 style={{
                   margin: "0px 5px",
-                  borderRadius: "10px",
-                  padding: "8px 15px",
+                  borderRadius: "25px",
+                  padding: "8px 25px",
                   backgroundColor: "green",
                 }}
               >
@@ -125,8 +126,8 @@ function HeaderSection() {
                 to="/technology"
                 style={{
                   margin: "0px 5px",
-                  borderRadius: "10px",
-                  padding: "8px 15px",
+                  borderRadius: "25px",
+                  padding: "8px 25px",
                 }}
               >
                 Technology

@@ -24,6 +24,9 @@
     align-items: center;
 }
 
+.form-control{
+    border-radius: 20px;
+}
 /* Style for the search bar */
 .form-inline input[type="search"] {
     width: 200px;
