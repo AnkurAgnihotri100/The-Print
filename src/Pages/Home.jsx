@@ -1,6 +1,6 @@
 import React from "react";
 // import Hero from "../components/Hero";
-import FetchData from "../components/FetchData"; 
+import FetchData from "../components/Data/FetchData"; 
 
 function Home() {
   return (

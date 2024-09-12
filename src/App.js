@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Header/NavBar";
 import Home from "./Pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import FetchData from "./components/FetchData";
-import Foter from "./components/Foter";
-import HeaderSection from "./components/HeaderSection";
-import Hero from "./components/Hero";
+import FetchData from "./components/Data/FetchData";
+import Foter from "./components/Footer/Foter";
+import HeaderSection from "./components/Header/HeaderSection";
+import Hero from "./components/Hero/Hero";
 import Login from "./Pages/Login";
 
 
